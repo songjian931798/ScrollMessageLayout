@@ -1,6 +1,6 @@
 # ScrollMessageLayout
 这是一个非常简单的控件库，实现的是类似京东和超级课程表里面消息滚动的效果。因为公司也有这样的需求，刚开始就简单的写了一下，后来想了想，干脆就把他写成一个通用的控件，免的后人再去造轮子。<br>
-<p>这个控件的实现原理启发于viewFlipper的源码的理解。大致原理也很简单，就是连个View不停地交换位置，加上动画，就实现了。<br>
+<p>这个控件的实现原理启发于viewFlipper的源码的理解。大致原理也很简单，就是两个View不停地交换位置，加上动画，就实现了。<br>
 
 # Use
 其实使用也非常简单了，简单几行代码就搞定了。<br>
@@ -43,6 +43,9 @@
                 .setScrollTextColor("#fffaaa")<br>
                 .setScrollTextSize(15)<br>
                 .setScrollTimeInterval(2000)<br>
-                .build();<br>
+                .build();<br><p>
+	*最简单调用<br>
+	如果你不需要监听点击事件，那么你只需要一行代码就可以搞定：
+	scroll_message.setScrollMessageList(list);<br>
 # 效果图
 效果图我就不贴了，自己补脑，哈哈哈。
