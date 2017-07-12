@@ -47,7 +47,7 @@
                 .setScrollTimeInterval(2000)<br>
                 .build();<br><p>
 	*最简单调用<br>
-	如果你不需要监听点击事件，那么你只需要一行代码就可以搞定：
+	如果你不需要监听点击事件和其他自定义效果，那么你只需要一行代码就可以搞定：<br>
 	scroll_message.setScrollMessageList(list);<br>
 # 效果图
 效果图我就不贴了，自己补脑，哈哈哈.<br><p>
